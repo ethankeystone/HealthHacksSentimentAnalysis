@@ -48,7 +48,7 @@ export default class MachineLearningInput extends Component {
           this.setState({response: quotes[Math.round(Math.random() * quotes.length)]}); 
         }
         else if (a == 1 && b == 1) {
-          this.setState({response: "It's ok, we all struggle with life somtimes. Just know that there's always people willing to help 800-273-8255"}); 
+          this.setState({response: "It's Ok, we all struggle with life somtimes. Just know that there's always people willing to help. Call 800-273-8255 <3"}); 
         } else {
           this.setState({response: "Just keep winning at life and being you!"}); 
         }
