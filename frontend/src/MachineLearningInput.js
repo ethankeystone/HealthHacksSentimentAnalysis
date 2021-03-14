@@ -10,7 +10,7 @@ export default class MachineLearningInput extends Component {
       "Tell us how you're feeling.",
     ]
     this.state = {
-    input:"None",
+    input:"Type here...",
     response: "",
     currentQuestion: possibleQuestions[Math.round(Math.random() * 4)]      
     }
